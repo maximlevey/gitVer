@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Requires custom DataDog metric "git.version.homebrew" to be created before script deployed
+
 # Check if Git is installed via Homebrew
 # Check git version and create $git_version variable
 
