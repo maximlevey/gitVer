@@ -9,7 +9,7 @@ if [ -f "/Library/Developer/CommandLineTools/usr/bin/git" ]; then
 	git_version=$(/Library/Developer/CommandLineTools/usr/bin/git --version | awk '{print $3}')
 	echo "Git version: $git_version"
 else
-	echo "Git has not been installed via Homebrew"
+	echo "Git has not been installed via Xcode"
 	exit 1
 fi
 
