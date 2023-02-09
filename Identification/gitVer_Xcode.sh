@@ -5,7 +5,7 @@
 # Check if Git is installed via Xcode
 # Check git version and create $git_version variable
 
-if [ -f "/Library/Developer/CommandLineTools/usr/bin/git" ]; then
+if [ -x "/Library/Developer/CommandLineTools/usr/bin/git" ]; then
 	git_version=$(/Library/Developer/CommandLineTools/usr/bin/git --version | awk '{print $3}')
 	echo "Git version: $git_version"
 else
