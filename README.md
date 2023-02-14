@@ -27,7 +27,7 @@ To successfully deploy these scripts, it is necessary to create specific DataDog
 | Script      | Metric     | 
 |:------------| :------------|
 |[gitVer_apt.sh](https://github.com/maximlevey/gitVer/blob/main/gitVer_apt)|`git.version.apt` |
-|[gitVer_homebrew.sh](https://github.com/maximlevey/gitVer/blob/main//gitVer_homebrew.)|   `git.version.homebrew`    |
+|[gitVer_homebrew.sh](https://github.com/maximlevey/gitVer/blob/main/gitVer_homebrew)|   `git.version.homebrew`    |
 |[gitVer_nix.sh](https://github.com/maximlevey/gitVer/blob/main/gitVer_nix)|`git.version.nix` |
 |[gitVer_other.sh](https://github.com/maximlevey/gitVer/blob/main/gitVer_other)|`git.version.other` |
 |[gitVer_xcode.sh](https://github.com/maximlevey/gitVer/blob/main/gitVer_xcode)|`git.version.xcode` |
