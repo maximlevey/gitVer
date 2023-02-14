@@ -5,7 +5,7 @@
 # gitVer_Nix.sh
 # Checks if Git installed via Nix Package Manager and reports version to DataDog
 # Created by Maxim Levey <github.com/maximlevey>
-# Last Modified 12/02/2023
+# Last Modified 14/02/2023
 
 #---Requirements---#
 
