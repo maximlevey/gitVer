@@ -14,7 +14,7 @@ Usage
 
 These scripts are designed to be deployed via an MDM solution such as Kandji or Jamf - alternatively, each script can be run directly from the command line.  
 ```
-> sudo ./gitVer_Homebrew
+> sudo ./gitVer_homebrew
 ```
 > **Note**
 >Since the script may need to search system directories, it will need to be run as root.
