@@ -14,7 +14,7 @@ These scripts are designed to be deployed via an MDM solution such as Kandji or 
 >Since the script may need to search system directories, it will need to be run as root.
 
 ```
-sudo ./gitVer_Homebrew
+> sudo ./gitVer_Homebrew
 ```
 
 ### Requirements
