@@ -1,9 +1,20 @@
 #!/bin/bash
 
-# Requires custom DataDog metric "git.version.nix" to be created before script deployed
+#---Information---#
 
-# Check if Git is installed via Nix package manager
-# Check git version and create $git_version variable
+# gitVer_Nix.sh
+# Checks if Git installed via Nix Package Manager and reports version to DataDog
+# Created by Maxim Levey <github.com/maximlevey>
+# Last Modified 12/02/2023
+
+#---Requirements---#
+
+# Custom DataDog metric "git.version.nix" to be created before script deployed
+
+#---Start Script---#
+
+# Check if Git is installed via Nix Package Manager
+# Check Git version and create variable $git_version
 
 if [ -x /run/current-system/sw/bin/git ]; then
 	git_version=$(/run/current-system/sw/bin/git --version | awk '{print $3}')
@@ -26,3 +37,5 @@ else
 fi
 
 exit 0
+
+#---End Script---#
