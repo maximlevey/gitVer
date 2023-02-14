@@ -1,6 +1,6 @@
 # gitVer
 
-<img alt="gitVerGif" src="https://user-images.githubusercontent.com/72744507/218674272-8bb1ce38-ee58-47b6-a530-46074f14d913.gif" width="600" />
+<img alt="gitVerGif" src="https://user-images.githubusercontent.com/72744507/218676145-01f84bcc-4b1c-4cd4-aef0-c398d29d8634.gif" width="600" />
 
 About
 ------
@@ -24,9 +24,9 @@ To successfully deploy these scripts, it is necessary to create specific DataDog
 
 | Script      | Metric     | 
 |:------------| :------------|
-|[gitVer_APT.sh](https://github.com/maximlevey/gitVer/blob/main/Scripts/gitVer_APT.sh)|`git.version.apt` |
-|[gitVer_Homebrew.sh](https://github.com/maximlevey/gitVer/blob/main/Scripts/gitVer_Homebrew.sh)|   `git.version.homebrew`    |
-|[gitVer_Nix.sh](https://github.com/maximlevey/gitVer/blob/main/Scripts/gitVer_Nix.sh)|`git.version.nix` |
-|[gitVer_Other.sh](https://github.com/maximlevey/gitVer/blob/main/Scripts/gitVer_Other.sh)|`git.version.other` |
-|[gitVer_Xcode.sh](https://github.com/maximlevey/gitVer/blob/main/Scripts/gitVer_Xcode.sh)|`git.version.xcode` |
+|[gitVer_apt.sh](https://github.com/maximlevey/gitVer/blob/main/gitVer_apt.sh)|`git.version.apt` |
+|[gitVer_homebrew.sh](https://github.com/maximlevey/gitVer/blob/main//gitVer_homebrew.sh)|   `git.version.homebrew`    |
+|[gitVer_nix.sh](https://github.com/maximlevey/gitVer/blob/main/gitVer_nix.sh)|`git.version.nix` |
+|[gitVer_other.sh](https://github.com/maximlevey/gitVer/blob/main/gitVer_other.sh)|`git.version.other` |
+|[gitVer_xcode.sh](https://github.com/maximlevey/gitVer/blob/main/gitVer_xcode.sh)|`git.version.xcode` |
 
