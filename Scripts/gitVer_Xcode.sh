@@ -1,9 +1,20 @@
 #!/bin/bash
 
-# Requires custom DataDog metric "git.version.xcode" to be created before script deployed
+#---Information---#
 
-# Check if Git is installed via Xcode
-# Check git version and create $git_version variable
+# gitVer_Xcode.sh
+# Checks if Git installed via Xcode and reports version to DataDog
+# Created by Maxim Levey <github.com/maximlevey>
+# Last Modified 12/02/2023
+
+#---Requirements---#
+
+# Custom DataDog metric "git.version.xcode" to be created before script deployed
+
+#---Start Script---#
+
+# Check if Git is installed via xcode
+# Check Git version and create variable $git_version
 
 if [ -x "/Library/Developer/CommandLineTools/usr/bin/git" ]; then
 	git_version=$(/Library/Developer/CommandLineTools/usr/bin/git --version | awk '{print $3}')
@@ -26,3 +37,4 @@ else
 fi
 
 exit 0
+#---End Script---#
