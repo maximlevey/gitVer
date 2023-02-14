@@ -7,6 +7,8 @@ About
 
 A collection of Shell Scripts developed to retrieve the version of Git installed at the specified location. This information is then reported to DataDog for observability.
 
+Additionally, [`gitVer_other.sh`](https://github.com/maximlevey/gitVer/blob/main/gitVer_other.sh) has been created to detect and report on all Git installations outside of known locations. The scripts output can be used to create additional scripts for specific paths and will also report to its own DataDig metric, `git.version.other` 
+
 Usage
 ------
 
