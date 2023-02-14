@@ -2,7 +2,7 @@
 
 #---Information---#
 
-# gitVer_APT.sh
+# gitVer_apt.sh
 # Checks if Git installed via apt-get and reports version to DataDog
 # Created by Maxim Levey <github.com/maximlevey>
 # Last Modified 14/02/2023
