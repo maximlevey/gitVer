@@ -1,9 +1,20 @@
 #!/bin/bash
 
-# Requires custom DataDog metric "git.version.apt" to be created before script deployed
+#---Information---#
+
+# gitVer_APT.sh
+# Checks if Git installed via apt-get and reports version to DataDog
+# Created by Maxim Levey <github.com/maximlevey>
+# Last Modified 12/02/2023
+
+#---Requirements---#
+
+# Custom DataDog metric "git.version.apt" to be created before script deployed
+
+#---Start Script---#
 
 # Check if Git is installed via apt-get
-# Check git version and create $git_version variable
+# Check Git version and create variable $git_version
 
 if [ -x "/usr/bin/git" ]; then
 	git_version=$(/usr/bin/git --version | awk '{print $3}')
