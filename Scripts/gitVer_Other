@@ -5,7 +5,7 @@
 # gitVer_Other.sh
 # Checks if Git installed at paths outside known directories and reports version to DataDog
 # Created by Maxim Levey <github.com/maximlevey>
-# Last Modified 12/02/2023
+# Last Modified 14/02/2023
 
 #---Requirements---#
 
