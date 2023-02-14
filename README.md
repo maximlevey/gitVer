@@ -1,6 +1,6 @@
 # gitVer
 
-<img alt="gitVerGift" src="https://user-images.githubusercontent.com/72744507/218667651-e796e53e-2ab6-4a59-b120-fda048d274b7.gif" width="600" />
+<img alt="gitVerGift" src="https://user-images.githubusercontent.com/72744507/218673071-bd81733c-e6d4-4aba-ad97-401241899052.gif" width="600" />
 
 About
 ------
