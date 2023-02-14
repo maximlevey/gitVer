@@ -25,11 +25,11 @@ knownDirectories=("/usr/bin/git" "/opt/homebrew/bin/git" "/run/current-system/sw
 
 for path in $(which git); do
 	unkown=true
-for knownDir in "${knownDirectories[@]}"; do
-	if [ "$path" == "$knownDir" ]; then
-		unknown=false
-		break
-	fi
+		for knownDir in "${knownDirectories[@]}"; do
+			if [ "$path" == "$knownDir" ]; then
+				unknown=false
+				break
+			fi
 done
 
 # If Git is installed at an unknown directory, check if datadog-agent is installed on the device
@@ -37,16 +37,16 @@ done
 	
 if $unknown; then
 	dog=`which datadog-agent`
-	if [ "$dog" != "" ]; then
-		$dog metric send "git.version.other" gauge $git_version
-		echo "Git version reported to DataDog"
-	else
-		echo "DataDog agent is not installed"
-		exit 1
-	fi
-		echo "Found Git in unknown directory: $path"
-		unknown=true
-	fi
+		if [ "$dog" != "" ]; then
+			$dog metric send "git.version.other" gauge $git_version
+			echo "Git version reported to DataDog"
+		else
+			echo "DataDog agent is not installed"
+			exit 1
+		fi
+			echo "Found Git in unknown directory: $path"
+			unknown=true
+		fi
 done
 
 # If Git is not found in any unknown directories, exit
