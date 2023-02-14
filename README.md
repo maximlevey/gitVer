@@ -10,14 +10,12 @@ A collection of Shell Scripts developed to retrieve the version of Git installed
 Usage
 ------
 
-These scripts are designed to be deployed via an MDM solution such as Kandji or Jamf. Alternatively, each script can be run directly from the command line.  
-
-> **Note**
->Since the script may need to search system directories, it will need to be run as root.
-
+These scripts are designed to be deployed via an MDM solution such as Kandji or Jamf - alternatively, each script can be run directly from the command line.  
 ```
 > sudo ./gitVer_Homebrew
 ```
+> **Note**
+>Since the script may need to search system directories, it will need to be run as root.
 
 Requirements
 ------
