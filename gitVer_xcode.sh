@@ -2,7 +2,7 @@
 
 #---Information---#
 
-# gitVer_Xcode.sh
+# gitVer_xcode.sh
 # Checks if Git installed via Xcode and reports version to DataDog
 # Created by Maxim Levey <github.com/maximlevey>
 # Last Modified 14/02/2023
