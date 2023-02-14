@@ -2,7 +2,7 @@
 
 Custom scripts to detect the install location of Git and report the version of that location to DataDog
 
-<img alt="gitVer" src="https://user-images.githubusercontent.com/72744507/218667651-e796e53e-2ab6-4a59-b120-fda048d274b7.gif" width="600" />
+<img alt="gitVer" src="https://user-images.githubusercontent.com/72744507/218667651-e796e53e-2ab6-4a59-b120-fda048d274b7.gif" width="800" />
 
 > **Note**
 > To successfully deploy these scripts, it is necessary to create specific DataDog custom metrics, which correspond to the script names listed in the table below. Additionally, the script looks for a DataDog Agent installation on the machine, without DataDog agent, the script will not report metrics and instead `exit 1`
