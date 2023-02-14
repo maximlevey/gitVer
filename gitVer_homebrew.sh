@@ -2,7 +2,7 @@
 
 #---Information---#
 
-# gitVer_Homebrew.sh
+# gitVer_homebrew.sh
 # Checks if Git installed via Homebrew and reports version to DataDog
 # Created by Maxim Levey <github.com/maximlevey>
 # Last Modified 14/02/2023
