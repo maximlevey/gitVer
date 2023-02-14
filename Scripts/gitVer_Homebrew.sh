@@ -1,9 +1,20 @@
 #!/bin/bash
 
-# Requires custom DataDog metric "git.version.homebrew" to be created before script deployed
+#---Information---#
+
+# gitVer_Homebrew.sh
+# Checks if Git installed via Homebrew and reports version to DataDog
+# Created by Maxim Levey <github.com/maximlevey>
+# Last Modified 12/02/2023
+
+#---Requirements---#
+
+# Custom DataDog metric "git.version.homebrew" to be created before script deployed
+
+#---Start Script---#
 
 # Check if Git is installed via Homebrew
-# Check git version and create $git_version variable
+# Check Git version and create variable $git_version
 
 if [ -x /opt/homebrew/bin/git ]; then
 	git_version=$(/opt/homebrew/bin/git --version | awk '{print $3}')
@@ -26,7 +37,3 @@ else
 fi
 
 exit 0
-
-
-
-
