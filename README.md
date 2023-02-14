@@ -2,11 +2,13 @@
 
 <img alt="gitVerGift" src="https://user-images.githubusercontent.com/72744507/218667651-e796e53e-2ab6-4a59-b120-fda048d274b7.gif" width="600" />
 
-### About
+About
+------
 
 A collection of Shell Scripts developed to retrieve the version of Git installed at the specified location. This information is then reported to DataDog for observability.
 
-### Using gitVer
+Usage
+------
 
 These scripts are designed to be deployed via an MDM solution such as Kandji or Jamf. Alternatively, each script can be run directly from the command line.  
 
@@ -17,7 +19,8 @@ These scripts are designed to be deployed via an MDM solution such as Kandji or 
 > sudo ./gitVer_Homebrew
 ```
 
-### Requirements
+Requirements
+------
 
 To successfully deploy these scripts, it is necessary to create specific DataDog custom metrics, which correspond to the script names listed in the table below. Additionally, the script looks for a DataDog Agent installation on the machine, without DataDog agent, the script will not report metrics and instead `exit 1`
 
