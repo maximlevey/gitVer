@@ -1,5 +1,7 @@
 # gitVer
 
+![gitVer](https://user-images.githubusercontent.com/72744507/223572037-a0f6c081-4f3a-4a6f-903e-13d986f7906d.gif)
+
 About
 ------
 
